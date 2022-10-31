@@ -73,13 +73,7 @@ function init() {
       var bubbleLabels = result.otu_labels;
       var bubbleValues = result.sample_values;
   
-  
-  /// Deliverable 1
-      // 7. Create the yticks for the bar chart.
-      // Hint: Get the the top 10 otu_ids and map them in descending order  
-      //  so the otu_ids with the most bacteria are last. 
-  
-      //var yticks = ids.map(sampleObj => "OTU" + sampleObj).slice(0,10).reverse();
+      // Create the yticks for the bar chart
       var yticks = ids.slice(0, 10).map(otuID => `OTU ${otuID}`).reverse();
   
       // 8. Create the trace for the bar chart. 
@@ -91,7 +85,7 @@ function init() {
         text: labels,
         mode: "markers", 
         marker: {
-          color: 'rgba(255,105,180,1)'
+          color: 'rgba(200,105,80,1)'
         }
       }];
       // 9. Create the layout for the bar chart. 
@@ -151,11 +145,11 @@ function init() {
           axis: {range: [null,10], dtick: "2"},
           bar: {color: "black"},
           steps:[
-            {range: [0, 2], color: "red"},
+            {range: [0, 2], color: "yellow"},
             {range: [2, 4], color: "orange"},
-            {range: [4, 6], color: "yellow"},
-            {range: [6, 8], color: "lightgreen"},
-            {range: [8, 10], color: "green"}
+            {range: [4, 6], color: "green"},
+            {range: [6, 8], color: "red"},
+            {range: [8, 10], color: "darkred"}
           ],
           dtick: 2
         }

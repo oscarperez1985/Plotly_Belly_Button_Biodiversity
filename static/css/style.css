@@ -1,13 +1,13 @@
 .jumbotron {
     background-image: url("../images/belly_button_biodiversity.webp");
-    background-size: 100% 100%;
+    background-size: 50% 50%;
     text-align: center;
-    color: white;
+    color: yellow;
     font:x-large;
 }
 
 h5 {
-  color:rgb(235,110,120);
+  color:rgb(20, 89, 158);
   font-weight:600;
   font-size: large;
 }
@@ -15,6 +15,6 @@ h5 {
 
 h3 {
   border: 1em rgb(0, 20, 20);
-  font-weight: 600;
-  font-size: large;
+  font-weight: 20;
+  font-size: xx-large;
 }
