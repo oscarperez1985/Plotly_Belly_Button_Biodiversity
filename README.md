@@ -50,6 +50,10 @@ The interactive dashboard can be accessed by visiting the following *[GitHub Pag
 
 The user interact with the dashboard by selecting any Test Subject ID Number from the drop donwn menu.
 
+![Image 02](./Resources/DropDownMenu.png)
+
+*Image02: Drop Down Menu*
+
 When selecting a different Test Subject ID Number, the gauge chartm, the horizontal bar chart and the bubble chart will be updated.
 
 ![Image 03](./Resources/Deliverable4_Updated.png)
