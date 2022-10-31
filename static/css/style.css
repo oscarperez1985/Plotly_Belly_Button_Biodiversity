@@ -1,0 +1,20 @@
+.jumbotron {
+    background-image: url("../images/belly_button_biodiversity.webp");
+    background-size: 100% 100%;
+    text-align: center;
+    color: white;
+    font:x-large;
+}
+
+h5 {
+  color:rgb(235,110,120);
+  font-weight:600;
+  font-size: large;
+}
+
+
+h3 {
+  border: 1em rgb(0, 20, 20);
+  font-weight: 600;
+  font-size: large;
+}
